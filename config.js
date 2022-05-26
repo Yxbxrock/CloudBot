@@ -10,8 +10,8 @@ global.sig = process.env.LINK_IG
 global.sgh = process.env.LINK_GITHUB
 global.sgc = process.env.LINK_GROUP
 global.ownernumber = process.env.NOWNER
-global.owner = [
-  ['6282365089294'],
+global.owner = ['6282365089294']
+  ['0'],
   ['0'],
   [`${process.env.NOWNER}`, `${process.env.NAMAOWNER}`, true]
   // [number, dia creator/owner?, dia developer?]
@@ -38,8 +38,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = process.env.PACKNAME
-global.author = process.env.AUTHOR
+global.packname = 'Created By'
+global.author = 'frmndaa'
 
 global.multiplier = 69 // The higher, The harder levelup
 
