@@ -1,6 +1,7 @@
 let handler =  m => m.reply(`
 ╭─「 Donasi 」
-│ • ${global.donasi}
+│ • Dana      [ 082365089294 ]
+  • Telkomsel [ 082365089294 ]
 ╰────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
